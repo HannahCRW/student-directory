@@ -1,3 +1,5 @@
+#defined variables
+student_count = 23
 #first, we list the names of the students
 puts "The Students of my Cohort at Makers Academy"
 puts "------------------------"
@@ -25,6 +27,4 @@ puts "Richard Curteis"
 puts "Anna Yanova"
 puts "Mystery Student"
 #finally, we print the total
-print "overall, we have "
-print 23
-puts " great students!"
+puts "Overall, we have #{student_count} great students!"
