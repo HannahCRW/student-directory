@@ -22,7 +22,7 @@ students = [
 	{:name => "Tyler Rollins", :cohort => :february},
 	{:name => "Richard Curteis", :cohort => :february},
 	{:name => "Anna Yanova", :cohort => :february},
-	{:name => "Mystery Student", :cohort => :february}
+	{:name => "Andrew Cumine", :cohort => :february}
 ]
 
 def print_header
@@ -37,7 +37,7 @@ def print(students)
 end
 
 def print_footer(names)
-	puts "Overall, we have #{names.length} great students"
+	puts "Overall, we have #{names.length} students"
 end
 
 def input_students
